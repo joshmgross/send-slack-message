@@ -1,0 +1,16 @@
+name: 'Send Slack Message'
+description: 'Sends a slack message'
+author: 'joshmgross'
+inputs:
+  message:
+    required: true
+    description: 'The Slack message to send'
+  slack-token:
+    required: true
+    description: 'A bot user access token, see https://api.slack.com/bot-users'
+  channel:
+    required: true
+    description: 'The Slack channel ID'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
