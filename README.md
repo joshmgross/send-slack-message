@@ -14,6 +14,8 @@ See https://api.slack.com/bot-users for information on setting up and installing
 
 - `channel`: The Slack channel ID to send the message to
 
+- `mrkdwn` : (optional) Determines whether the text field is rendered according to mrkdwn formatting or not. Defaults to true.
+
 ## Example Usage
 
 
