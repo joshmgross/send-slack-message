@@ -1,6 +1,6 @@
 {
   "name": "send-slack-message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A GitHub action to send a Slack message",
   "main": "dist/index.js",
   "private": true,
