@@ -9,7 +9,7 @@ async function run(): Promise<void> {
         const message = core.getInput("message", { required: true });
 
         // Send slack message
-        const slackWebClient =  new WebClient(slackToken);
+        const slackWebClient = new WebClient(slackToken);
         const result = await slackWebClient.chat.postMessage({
           text: message,
           channel: channel

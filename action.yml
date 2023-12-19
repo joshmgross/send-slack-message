@@ -12,7 +12,7 @@ inputs:
     required: true
     description: 'The Slack channel ID'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'mail'
